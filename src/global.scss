@@ -24,3 +24,50 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+ion-content {
+  --offset-top: 1px !important;
+  --offset-bottom: 1px !important;
+}
+
+.cw-color {
+  color: var(--ion-color-primary);
+}
+
+ion-footer {
+  background-color: #fff;
+}
+
+ion-button {
+    text-transform: capitalize;
+    --border-radius: 10px;
+    --box-shadow: none;
+    height: 47px;
+    font-size: 18px;
+}
+
+ion-item {
+  --background: rgba(196, 196, 196, 0.27);
+  border-radius: 10px;
+  
+  ion-icon {
+      color: var(--ion-color-primary);
+  }
+}
+
+  .swiper-pagination-bullet-active {
+    width: 31px !important;
+    border-radius: 50px !important;
+    height: 8px !important;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 50%;
+  }

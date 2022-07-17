@@ -1,0 +1,46 @@
+ion-content {
+    height: 100vh;
+}
+
+.description {
+    text-align: center;
+    margin-top: 2em;
+
+    h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+        color: rgba(49, 49, 49, 0.49);
+    }
+}
+
+ion-list {
+
+
+    ion-item {
+        margin-top: 1.5em;
+    }
+}
+
+a {
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+ion-footer {
+    .bg-ellipse {
+        position: absolute;
+        bottom: -3em;
+        left: 0px;
+    }
+}

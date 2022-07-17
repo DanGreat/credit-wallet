@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
+import { BackButtonHandlerService } from './services/back-button-handler.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor(private backButtonService: BackButtonHandlerService) {
+    document.body.setAttribute('color-theme', 'light');
+    this.backButtonService.init();
+  }
 }
