@@ -22,10 +22,33 @@ ion-content {
     --padding-bottom: 2em !important;
 
     .balance-card {
-        height: 152px;
-        background: linear-gradient(199.65deg, #F56B2A 13.16%, #FFB067 76.51%);
+        // height: 152px;
+        padding: 1em;
+        background: linear-gradient(17deg, #F56B2A -6.84%, #FFB067 76.51%);
         border-radius: 17px;
-        transform: rotate(-180deg);
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+
+
+        h1 {
+            font-size: 45px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        span {
+            font-size: 11px;
+
+            strong {
+                font-size: 16px;
+            }
+        }
     }
 
     .action-btns {
